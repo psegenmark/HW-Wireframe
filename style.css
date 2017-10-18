@@ -1,8 +1,104 @@
-2. Your CSS should have styles for each of the following elements:
-   * Body
-   * Header, nav, and footer
-   * Section
-   * Aside
-   * Article
-   * .clear
-   * Your text elements: h1, p, etc.
+body {
+    background-color: #777;
+    color: #ebebeb;
+    font-size: 18px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#header {
+    background-color:lightgrey;
+    text-align: center;
+    height: 60px;
+    margin: 10px 0;
+    padding-top: 35px;
+}
+
+#nav {
+    background-color:lightgrey;
+    text-align: center;
+    height: 60px;
+    margin: 10px 0;
+    padding-top: 35px;
+}
+
+#section {
+    /* Float:left; */
+    background-color:lightgrey;
+    text-align: center;
+    height: 100%;
+    margin: 10px 0;
+    padding-top: 35px;
+    width: 495px;
+    position:absolute;
+}
+
+#aside{
+    /* float:right; */
+    background-color:lightgrey;
+    text-align: center;
+    height: 100%;
+    margin: 10px 0;
+    padding-top: 35px;
+    width: 445px;
+    position:absolute;
+    right:0;
+}
+.wrap{
+    width: 960px;
+    margin: 0 auto 0 auto;
+}
+
+#article{
+    position:absolute;
+    left:0;
+    right:0;
+    background: #777;
+    width: 480px;
+    margin: 20px auto;
+    height: 140px;
+    padding-top: 10px;
+
+}
+
+#h1h2h3{
+    position:absolute;
+    background-color:lightgrey;
+    height:35px;
+    width: 440px;
+    margin:0 auto;
+    margin-top:10px;
+    padding-top:12px;
+    left:0;
+    right:0;
+}
+
+#p{
+    position:absolute;
+    background-color:lightgrey;
+    height:35px;
+    width: 440px;
+    margin:0 auto;
+    margin-top:10px;
+    padding-top:12px;
+    left:0;
+    right:0;
+    top:85px;
+}
+
+
+#footer {
+    background-color:lightgrey;
+    text-align: center;
+    height: 60px;
+    margin: 10px 0;
+    padding-top: 35px;
+    width: 100%;
+    margin-top: 67px;
+
+}
+
+.twoboxes{
+    position:relative;
+    height:210px;
+    
+    }
